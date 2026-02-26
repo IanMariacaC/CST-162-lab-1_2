@@ -3,7 +3,7 @@
 */
 
 //TASK #2  Add import statement here to use the Scanner class
-	import java.util.Scanner
+	import java.util.Scanner;
 //TASK #2  (Alternate) Add import statment to use JOptionPane class
 
 public class NumericTypes
@@ -11,7 +11,7 @@ public class NumericTypes
 	public static void main (String [] args)
 	{
 		//TASK #2 Create a Scanner object here (not used for alternate)
-		Scanner keyboard = new Scanner(System.in))
+		Scanner keyboard = new Scanner(System.in);
 		//identifier declarations
 		final int NUMBER = 2 ;		// number of scores
 		final int SCORE1 = 100;		// first test score
@@ -25,7 +25,7 @@ public class NumericTypes
 		//TASK #4 declare variables used here
 
 		// Find an arithmetic average
-		average = (SCORE1+ SCORE 2) / NUMBER;
+		average = (SCORE1+ SCORE2) / NUMBER;
 		output = SCORE1 + " and " + SCORE2 + " have an average of "
 				+ average;
 		System.out.println(output);
@@ -43,7 +43,7 @@ public class NumericTypes
 		// read the user's first name
 		String firstName = keyboard.nextLine();
 		// prompt the user for last name
-		System,out.println("Enter your Last Name");
+		System.out.println("Enter your Last Name");
 		// read the user's last name
 		String lastName = keyboard.nextLine();
 		// concatenate the user's first and last names
@@ -60,7 +60,7 @@ public class NumericTypes
 		// convert the user's full name to all capital letters
 		fullName = fullName.toUpperCase();
 		// print out the user's full name in all capital letters
-		System.out.println(fullName + " contains " + fullName.lenght()
+		System.out.println(fullName + " contains " + fullName.length() + " characters.");
 		System.out.println();		// to leave a blank line
 		
 		// ADD LINES FOR TASK #4 HERE
